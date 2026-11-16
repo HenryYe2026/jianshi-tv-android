@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = HenryYe2026
+	email = HenryYe2026@users.noreply.github.com
+[remote "origin"]
+	url = https://github.com/HenryYe2026/jianshi-tv-android.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

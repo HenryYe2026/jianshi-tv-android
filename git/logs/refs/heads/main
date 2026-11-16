@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 92dd151297d8db544ce066e34a191031b0095311 HenryYe2026 <HenryYe2026@users.noreply.github.com> 1794813060 +0800	commit (initial): Add JianshiTV Android TV project: source, docs, scripts and APK
+92dd151297d8db544ce066e34a191031b0095311 2b52d0326ffe92d31966e186da15c8f29a5b5d4c HenryYe2026 <HenryYe2026@users.noreply.github.com> 1794813068 +0800	merge origin/main: Merge made by the 'ort' strategy.
+2b52d0326ffe92d31966e186da15c8f29a5b5d4c 6bb97d71023809f82119379599a23b780f4a1add HenryYe2026 <HenryYe2026@users.noreply.github.com> 1794813125 +0800	commit: Add one-click GitHub push helper
+6bb97d71023809f82119379599a23b780f4a1add 808b6df85293dc25b56df5d97650e3fd8643f34c HenryYe2026 <HenryYe2026@users.noreply.github.com> 1794813641 +0800	commit: Remove machine-local SDK path from repo; harden push helper and README
