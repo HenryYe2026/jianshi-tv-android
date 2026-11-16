@@ -1,0 +1,9 @@
+#EXTM3U
+# 频道源模板：请把下面的公开演示流替换为你已获合法授权的直播地址
+# 支持标准 m3u / m3u8 播放列表格式，group-title 用于频道分组
+#EXTINF:-1 tvg-id="demo1" tvg-name="演示 HLS" group-title="演示",演示 · HLS 自适应流
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="demo2" tvg-name="演示点播" group-title="演示",演示 · W3C Sintel 预告
+https://media.w3.org/2010/05/sintel/trailer.mp4
+#EXTINF:-1 tvg-id="demo3" tvg-name="演示点播" group-title="演示",演示 · W3C Big Buck Bunny
+https://media.w3.org/2010/05/bunny/movie.mp4

@@ -166,4 +166,6 @@ APK 默认用 Gradle debug 签名，**可直接安装**；若要上架或长期�
 
 仓库内置 `.github/workflows/build.yml`：每次推送到 `main`（或在 Actions 页手动触发 `workflow_dispatch`），CI 会自动安装 JDK 17 / Gradle 8.7 / Android SDK 34，执行 `gradle assembleDebug`，并把编译好的 `JianshiTV-v1.0.0.apk` 发布为 Release 附件（tag `v1.0.0`），可直接下载安装到电视。
 
-源码仓库只提交文本工程文件；APK 二进制不随源码提交，本地成品保留在 `dist\`，Releases 中也会持续产出最新构建。
+仓库同时收录 `dist\JianshiTV-v1.0.0.apk`（4.9 MB，可直接下载装电视）；CI 的 Release 附件会持续产出最新构建。本机专属的 `local.properties`（含 SDK 绝对路径）已在 `.gitignore` 中排除，不进仓库。
+
+> 推送工程：本机 `tools\push_to_github.bat` 走 git + 浏览器 OAuth 一键推送；若网络代理拦截了 `github.com` 的 git 端点，可改用 PAT + `api.github.com` 的 REST 通道（`.build-env\upload_with_pat.py`），不需要 GitHub 应用写权限。
