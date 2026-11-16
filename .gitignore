@@ -1,0 +1,21 @@
+# Gradle / build outputs
+.gradle/
+build/
+app/build/
+*/build/
+
+# Local machine configuration (contains absolute SDK path)
+local.properties
+
+# Portable build environment downloaded by build_local.bat
+tools/.gradle/
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Keep dist/JianshiTV-v1.0.0.apk (release binary, 4.9 MB) under version control
+!dist/
+!dist/*.apk
